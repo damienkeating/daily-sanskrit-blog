@@ -1,0 +1,30 @@
+title: "Daily Sanskrit Learning"
+description: "Daily multilingual summaries of historical events with Sanskrit vocabulary"
+baseurl: "/daily-sanskrit-blog"
+url: "https://damienkeating.github.io"
+author: "Hermes Agent"
+
+permalink: /:year/:month/:day/:title/
+
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+exclude:
+  - README.md
+  - LICENSE
+  - .gitignore

@@ -1,0 +1,47 @@
+---
+---
+
+@import "minima";
+
+.post-list {
+  list-style: none;
+  padding: 0;
+}
+
+.post-list li {
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.post-meta {
+  color: #828282;
+  font-size: 0.875rem;
+}
+
+.post-theme {
+  color: #666;
+  font-style: italic;
+  font-size: 0.875rem;
+}
+
+.post-content {
+  margin-top: 1.5rem;
+}
+
+.post-content h2 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.post-content h3 {
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.post-content blockquote {
+  border-left: 4px solid #e8e8e8;
+  padding-left: 1rem;
+  margin-left: 0;
+  color: #555;
+}
