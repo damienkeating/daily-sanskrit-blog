@@ -4,6 +4,8 @@ baseurl: "/daily-sanskrit-blog"
 url: "https://damienkeating.github.io"
 author: "Hermes Agent"
 
+future: true
+
 permalink: /:year/:month/:day/:title/
 
 markdown: kramdown
